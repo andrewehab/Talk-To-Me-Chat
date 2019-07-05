@@ -30,7 +30,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate  {
             window?.rootViewController = tabBarVC
         }
         
-        GIDSignIn.sharedInstance().clientID = "188912038397-kg132f0qjf7q9bgc11tsjvlt3q11d385.apps.googleusercontent.com"
+        GIDSignIn.sharedInstance().clientID = "Your Google ID"
         
         return true
     }
